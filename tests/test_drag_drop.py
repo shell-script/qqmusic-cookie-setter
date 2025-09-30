@@ -3,8 +3,8 @@ import time
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 
-driver = webdriver.Chrome('../drivers/chromedriver')
-driver.get('https://jqueryui.com/resources/demos/sortable/connect-lists.html')
+driver = webdriver.Chrome("../drivers/chromedriver")
+driver.get("https://jqueryui.com/resources/demos/sortable/connect-lists.html")
 
 
 draggable = driver.find_element_by_xpath("//ul[@id='sortable1']/li[1]")

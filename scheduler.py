@@ -1,14 +1,13 @@
 # @Author: allen
 # @Date: May 30 19:50 2020
-import time
 import sys
+import time
 
 import schedule
 
 from qqmusic_cookie_setter import main
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Get the time when run command as "python3 scheduler.py HH:SS"
     if len(sys.argv) > 2:
         sche_time = sys.argv[1]
